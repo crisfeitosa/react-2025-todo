@@ -1,4 +1,5 @@
 import Text from "./components/text";
+import Badge from "./components/badge";
 
 import TrashIcon from "./assets/icons/trash.svg?react";
 import CheckIcon from "./assets/icons/check.svg?react";
@@ -27,6 +28,11 @@ export default function App() {
         <Icon svg={SpinnerIcon} />
         <Icon svg={PencilIcon} />
         <Icon svg={XIcon} />
+      </div>
+
+      <div>
+        <Badge variant="secondary">5</Badge>
+        <Badge variant="primary">2 de 5</Badge>
       </div>
     </div>
   );
