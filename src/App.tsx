@@ -7,8 +7,9 @@ import ButtonIcon from "./components/button-icon";
 
 import XIcon from "./assets/icons/x.svg?react";
 import PlusIcon from "./assets/icons/plus.svg?react";
-import TrashIcon from "./assets/icons/trash.svg?react";
 import CheckIcon from "./assets/icons/check.svg?react";
+import TrashIcon from "./assets/icons/trash.svg?react";
+import InputCheckbox from "./components/input-checkbox";
 import PencilIcon from "./assets/icons/pencil.svg?react";
 import SpinnerIcon from "./assets/icons/spinner.svg?react";
 
@@ -50,6 +51,10 @@ export default function App() {
 
       <div>
         <InputText />
+      </div>
+
+      <div>
+        <InputCheckbox />
       </div>
     </div>
   );
