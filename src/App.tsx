@@ -1,15 +1,16 @@
 import Icon from "./components/icon";
 import Text from "./components/text";
+import Card from "./components/card";
 import Badge from "./components/badge";
 import Button from "./components/button";
 import InputText from "./components/input-text";
 import ButtonIcon from "./components/button-icon";
+import InputCheckbox from "./components/input-checkbox";
 
 import XIcon from "./assets/icons/x.svg?react";
 import PlusIcon from "./assets/icons/plus.svg?react";
 import CheckIcon from "./assets/icons/check.svg?react";
 import TrashIcon from "./assets/icons/trash.svg?react";
-import InputCheckbox from "./components/input-checkbox";
 import PencilIcon from "./assets/icons/pencil.svg?react";
 import SpinnerIcon from "./assets/icons/spinner.svg?react";
 
@@ -55,6 +56,10 @@ export default function App() {
 
       <div>
         <InputCheckbox />
+      </div>
+
+      <div>
+        <Card size="md">Olá mundo</Card>
       </div>
     </div>
   );
