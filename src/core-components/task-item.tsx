@@ -12,7 +12,7 @@ import XIcon from "../assets/icons/x.svg?react";
 import CheckIcon from "../assets/icons/check.svg?react";
 
 export default function TaskItem() {
-  const [isEditing, setIsEditing] = React.useState(true);
+  const [isEditing, setIsEditing] = React.useState(false);
 
   function handleEditTask() {
     setIsEditing(true);
